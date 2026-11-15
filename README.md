@@ -33,7 +33,7 @@ Every section reads from this file. Replace everything in `[BRACKETS]`:
 
 | Field | What to put |
 |---|---|
-| `url` | Your live domain, e.g. `https://www.ustaadjidrivingschool.in` (used for SEO, sitemap, OG image) |
+| `url` | Your live domain, e.g. `https://ustaadjidriving.in` (used for SEO, sitemap, OG image) |
 | `area`, `address.full`, `address.street`, `address.postalCode` | Your area, full address and PIN code |
 | `geo.latitude`, `geo.longitude` | Right-click your location in Google Maps to copy the coordinates |
 | `phone`, `whatsapp` | **10 digits only**, without +91 (the current `9999999999` is a placeholder) |
@@ -88,8 +88,8 @@ From then on, every `git push` to `main` redeploys automatically.
 
 ### Connect a custom domain
 
-1. Buy a domain (GoDaddy, Hostinger, Namecheap, etc.), for example `ustaadjidrivingschool.in`.
-2. In Vercel: **Project → Settings → Domains → Add**, then enter both `ustaadjidrivingschool.in` and `www.ustaadjidrivingschool.in`.
+1. Buy a domain (GoDaddy, Hostinger, Namecheap, etc.), for example `ustaadjidriving.in`.
+2. In Vercel: **Project → Settings → Domains → Add**, then enter both `ustaadjidriving.in` and `www.ustaadjidriving.in`.
 3. Vercel shows the DNS records. Add them in your domain provider's DNS settings:
    - `A` record: host `@` → `76.76.21.21`
    - `CNAME` record: host `www` → `cname.vercel-dns.com`

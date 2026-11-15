@@ -48,7 +48,7 @@ export const site = {
   },
 
   // Live website ka URL (domain lene ke baad badlein). Sitemap, SEO aur OG image ke liye zaroori.
-  url: "https://www.ustaadjidrivingschool.in",
+  url: "https://ustaadjidriving.in",
 
   // ---------- Location ----------
   city: "Bhopal",
