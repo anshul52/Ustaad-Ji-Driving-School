@@ -53,13 +53,13 @@ export const site = {
   // ---------- Location ----------
   city: "Bhopal",
   state: "Madhya Pradesh",
-  area: "[YOUR AREA]",
+  area: "Pushpa Nagar",
   address: {
-    full: "[FULL ADDRESS]",
-    street: "[FULL ADDRESS]",
+    full: "Gali No. 1, Pushpa Nagar, Santoshi Mata Mandir, Bagh Roshan",
+    street: "Gali No. 1, Pushpa Nagar, Santoshi Mata Mandir, Bagh Roshan",
     locality: "Bhopal",
     region: "Madhya Pradesh",
-    postalCode: "[PINCODE]",
+    postalCode: "", // PIN code daalein, e.g. "462010"
     country: "IN",
   },
   // Google Maps par apni location ke coordinates daalein (abhi Bhopal center hai).
