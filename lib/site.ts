@@ -99,7 +99,7 @@ export const site = {
   seo: {
     title: "Ustaad Ji Driving School – Car Driving Classes in Bhopal",
     description:
-      "Bhopal mein 21 din mein car chalana seekhein. Dual-control car, experienced instructor, licence help. Free demo class. Call now.",
+      "Bhopal mein sirf 7 din mein car chalana seekhein. Dual-control car, experienced instructor, licence help. Free demo class. Call now.",
     ogImage: "/images/og-image.jpg",
   },
 
@@ -119,7 +119,7 @@ export const site = {
 
   // ---------- Hero ----------
   hero: {
-    headline: "Sirf 21 din mein car chalana seekhein",
+    headline: "Sirf 7 din mein car chalana seekhein",
     subline:
       "Dual-control safe car, experienced instructor aur licence mein poori madad",
     image: "/images/hero-car.jpg",
@@ -168,12 +168,12 @@ export const site = {
     },
     {
       name: "Standard",
-      days: "21 din",
+      days: "7 din",
       duration: "Roz 1 class",
       price: 5999,
       highlighted: true,
       features: [
-        "21 din ki complete training",
+        "7 din ki complete training",
         "Theory class",
         "Parking aur reverse",
         "Hill start practice",
@@ -184,11 +184,11 @@ export const site = {
     },
     {
       name: "Ladies Special",
-      days: "21 din",
+      days: "7 din",
       duration: "Roz 1 class",
       price: 6999,
       features: [
-        "21 din ki complete training",
+        "7 din ki complete training",
         "Female instructor",
         "Ghar se pick-up & drop",
         "Parking, reverse aur RTO test practice",
@@ -234,7 +234,7 @@ export const site = {
     {
       question: "Kitne din mein car chalana seekh jaunga?",
       answer:
-        "Zyada tar students 15 se 21 din mein aaram se car chalana seekh jaate hain. Agar aap bilkul naye hain, to 21 din ka Standard course best rahega.",
+        "Sirf 7 din mein aap aaram se car chalana seekh sakte hain. Agar aap bilkul naye hain, to 7 din ka Standard course best rahega. Zyada practice chahiye to 15 din ka Basic course bhi hai.",
     },
     {
       question: "Kya licence banwane mein madad milegi?",

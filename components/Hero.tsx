@@ -55,7 +55,7 @@ export default function Hero() {
             />
           </div>
           <div className="absolute -top-4 right-4 rounded-card bg-accent px-5 py-3 text-navy shadow-lift sm:right-6">
-            <p className="text-2xl font-extrabold leading-none">21 din</p>
+            <p className="text-2xl font-extrabold leading-none">7 din</p>
             <p className="mt-1 text-sm font-medium">mein pakka driver</p>
           </div>
         </div>
