@@ -69,9 +69,9 @@ export const site = {
   },
 
   // ---------- Contact ----------
-  // Sirf 10 digit number, bina +91 ke. (Abhi placeholder hai – zaroor badlein.)
-  phone: "9999999999",
-  whatsapp: "9999999999",
+  // Sirf 10 digit number, bina +91 ke.
+  phone: "7697708777",
+  whatsapp: "7697708777",
 
   timings: {
     label: "Subah 6:00 – Raat 9:00, har din",
