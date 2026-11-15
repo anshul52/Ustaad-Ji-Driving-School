@@ -36,7 +36,7 @@ Every section reads from this file. Replace everything in `[BRACKETS]`:
 | `url` | Your live domain, e.g. `https://ustaadjidriving.in` (used for SEO, sitemap, OG image) |
 | `area`, `address.full`, `address.street`, `address.postalCode` | Your area, full address and PIN code |
 | `geo.latitude`, `geo.longitude` | Right-click your location in Google Maps to copy the coordinates |
-| `phone`, `whatsapp` | **10 digits only**, without +91 (the current `9999999999` is a placeholder) |
+| `phone`, `whatsapp` | **10 digits only**, without +91 |
 | `links.googleReviews` | Your Google Business Profile review link |
 | `links.mapsEmbed` | Google Maps → Share → *Embed a map* → copy only the `src="..."` URL |
 | `links.instagram`, `links.facebook` | Your social profile URLs |
