@@ -120,6 +120,11 @@ export const site = {
   // ---------- Hero ----------
   hero: {
     headline: "Sirf 7 din mein car chalana seekhein",
+    // Headline ka ye hissa yellow mein dikhega
+    highlight: "7 din",
+    badge: { title: "7 din", text: "mein pakka driver" },
+    // Buttons ke neeche trust points
+    points: ["Free demo class", "Female instructor available", "Licence mein poori madad"],
     subline:
       "Dual-control safe car, experienced instructor aur licence mein poori madad",
     image: "/images/hero-car.jpg",
