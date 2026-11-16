@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Clock, MapPin, Phone } from "lucide-react";
-import { site } from "@/lib/site";
+import { isPlaceholder, site } from "@/lib/site";
 import { formatPhone, telLink } from "@/lib/whatsapp";
 import { FacebookIcon, InstagramIcon } from "./icons";
 
@@ -8,7 +8,7 @@ export default function Footer() {
   const socials = [
     { label: "Instagram par follow karein", href: site.links.instagram, Icon: InstagramIcon },
     { label: "Facebook par follow karein", href: site.links.facebook, Icon: FacebookIcon },
-  ];
+  ].filter((s) => !isPlaceholder(s.href));
 
   return (
     <footer className="bg-primary-dark pb-24 pt-14 text-white sm:pb-14">

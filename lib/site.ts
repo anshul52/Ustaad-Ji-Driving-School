@@ -86,7 +86,7 @@ export const site = {
     // Google Maps > Share > Embed a map > iframe ka "src" URL yahan daalein.
     mapsEmbed: "[MAPS EMBED URL]",
     instagram: "[INSTAGRAM LINK]",
-    facebook: "[FACEBOOK LINK]",
+    facebook: "https://www.facebook.com/profile.php?id=61596423458833",
   },
 
   // ---------- Tracking ----------
