@@ -60,7 +60,8 @@ export default function Contact() {
                       ) : (
                         <span className="block break-words text-lg font-semibold">
                           {value}
-                          {label === "Address" && `, ${site.city}, ${site.state}`}
+                          {label === "Address" &&
+                            `, ${site.city}, ${site.state}${site.address.postalCode ? ` – ${site.address.postalCode}` : ""}`}
                         </span>
                       )}
                     </span>

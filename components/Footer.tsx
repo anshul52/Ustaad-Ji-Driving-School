@@ -52,6 +52,7 @@ export default function Footer() {
               <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-accent" aria-hidden="true" />
               <span>
                 {site.address.full}, {site.city}, {site.state}
+                {site.address.postalCode && ` – ${site.address.postalCode}`}
               </span>
             </li>
             <li className="flex gap-3">

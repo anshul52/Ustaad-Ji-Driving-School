@@ -59,7 +59,7 @@ export const site = {
     street: "Gali No. 1, Pushpa Nagar, Santoshi Mata Mandir, Bagh Roshan",
     locality: "Bhopal",
     region: "Madhya Pradesh",
-    postalCode: "", // PIN code daalein, e.g. "462010"
+    postalCode: "462010",
     country: "IN",
   },
   // Google Maps par apni location ke coordinates daalein (abhi Bhopal center hai).
