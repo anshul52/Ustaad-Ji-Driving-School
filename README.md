@@ -57,7 +57,7 @@ Replace these files, keeping the **same file names**:
 | `logo-512.png` | 512 × 512 | Logo for Google (structured data) |
 
 Keep images under ~200 KB (compress them at https://squoosh.app). Next.js serves them as WebP/AVIF automatically.
-The browser tab icon is `app/icon.png` (192 × 192) and the iPhone home-screen icon is `app/apple-icon.png` (180 × 180).
+The browser tab icons are `app/icon.png` (192 × 192) and `app/favicon.ico` (48 × 48); the iPhone home-screen icon is `app/apple-icon.png` (180 × 180).
 
 Note: if you use a real photo for the hero, change `object-contain p-4 sm:p-6` to `object-cover` in `components/Hero.tsx` so it fills the frame.
 
