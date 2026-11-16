@@ -85,7 +85,7 @@ export const site = {
     googleReviews: "[GOOGLE REVIEW LINK]",
     // Google Maps > Share > Embed a map > iframe ka "src" URL yahan daalein.
     mapsEmbed: "[MAPS EMBED URL]",
-    instagram: "[INSTAGRAM LINK]",
+    instagram: "https://www.instagram.com/ustaad_ji_driving_school",
     facebook: "https://www.facebook.com/profile.php?id=61596423458833",
   },
 
