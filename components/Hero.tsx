@@ -19,46 +19,46 @@ function Headline() {
 
 export default function Hero() {
   return (
-    <section id="top" aria-labelledby="hero-title" className="bg-primary text-white">
-      <div className="container-site grid items-center gap-12 py-10 sm:py-14 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:py-16 xl:py-20">
+    <section id="top" aria-labelledby="hero-title" className="flex min-h-[calc(100svh-4rem)] items-center bg-primary text-white sm:min-h-[calc(100svh-72px)]">
+      <div className="container-site grid items-center gap-12 py-10 sm:py-14 lg:grid-cols-[1.1fr_1fr] lg:gap-14 lg:py-16 xl:py-20 2xl:gap-20">
         {/* Text */}
-        <div className="max-w-2xl">
-          <p className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-accent">
+        <div className="max-w-2xl 2xl:max-w-3xl">
+          <p className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-accent 2xl:text-base">
             <ShieldCheck className="h-4 w-4 shrink-0" aria-hidden="true" />
             {site.tagline}
           </p>
 
           <h1
             id="hero-title"
-            className="text-[2.25rem] font-extrabold leading-[1.12] tracking-tight sm:text-5xl xl:text-[3.5rem]"
+            className="text-[2.25rem] font-extrabold leading-[1.12] tracking-tight sm:text-5xl xl:text-[3.5rem] 2xl:text-[4.25rem]"
           >
             <Headline />
           </h1>
 
-          <p className="mt-5 text-lg leading-relaxed text-white/90 sm:text-xl">
+          <p className="mt-5 text-lg leading-relaxed text-white/90 sm:text-xl 2xl:mt-6 2xl:text-[1.4rem]">
             {site.hero.subline} – {site.area}, {site.city}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap 2xl:mt-10 2xl:gap-4">
             <a
               href={whatsappLink(site.messages.demo)}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary min-h-[56px] whitespace-nowrap px-7 text-lg"
+              className="btn-primary min-h-[56px] whitespace-nowrap px-7 text-lg 2xl:min-h-[64px] 2xl:px-9 2xl:text-xl"
             >
               <MessageCircle className="h-5 w-5 shrink-0" aria-hidden="true" />
               Free Demo Class Book Karein
             </a>
             <a
               href={telLink()}
-              className="btn-outline-light min-h-[56px] whitespace-nowrap px-7 text-lg"
+              className="btn-outline-light min-h-[56px] whitespace-nowrap px-7 text-lg 2xl:min-h-[64px] 2xl:px-9 2xl:text-xl"
             >
               <Phone className="h-5 w-5 shrink-0" aria-hidden="true" />
               Call Karein
             </a>
           </div>
 
-          <ul className="mt-8 grid gap-x-6 gap-y-3 text-[15px] text-white sm:grid-cols-2">
+          <ul className="mt-8 grid gap-x-6 gap-y-3 text-[15px] text-white sm:grid-cols-2 2xl:mt-10 2xl:gap-y-4 2xl:text-lg">
             {site.hero.points.map((point) => (
               <li key={point} className="flex items-center gap-2.5">
                 <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent text-navy">
@@ -82,7 +82,7 @@ export default function Hero() {
               alt={site.hero.imageAlt}
               fill
               priority
-              sizes="(min-width: 1200px) 540px, (min-width: 1024px) 45vw, (min-width: 640px) 576px, 100vw"
+              sizes="(min-width: 1536px) 640px, (min-width: 1200px) 540px, (min-width: 1024px) 45vw, (min-width: 640px) 576px, 100vw"
               className="object-contain p-5 sm:p-8"
             />
           </div>
