@@ -91,7 +91,7 @@ export default function HomePage() {
         <WhyUs />
         <Courses />
         <HowItWorks />
-        <Reviews />
+        {site.showReviews && <Reviews />}
         <FAQ />
         <Contact />
       </main>

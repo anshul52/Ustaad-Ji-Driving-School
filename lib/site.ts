@@ -62,10 +62,10 @@ export const site = {
     postalCode: "462010",
     country: "IN",
   },
-  // Google Maps par apni location ke coordinates daalein (abhi Bhopal center hai).
+  // Location coordinates (Google Maps par pin daal kar exact values se badlein).
   geo: {
-    latitude: 23.2599,
-    longitude: 77.4126,
+    latitude: 23.2651525,
+    longitude: 77.4128187,
   },
 
   // ---------- Contact ----------
@@ -84,7 +84,7 @@ export const site = {
   links: {
     googleReviews: "[GOOGLE REVIEW LINK]",
     // Google Maps > Share > Embed a map > iframe ka "src" URL yahan daalein.
-    mapsEmbed: "[MAPS EMBED URL]",
+    mapsEmbed: "https://www.google.com/maps?q=Santoshi%20Mata%20Mandir%2C%20Pushpa%20Nagar%2C%20Bagh%20Roshan%2C%20Bhopal%20462010&z=16&output=embed",
     instagram: "https://www.instagram.com/ustaad_ji_driving_school",
     facebook: "https://www.facebook.com/profile.php?id=61596423458833",
   },
@@ -223,6 +223,8 @@ export const site = {
   ],
 
   // ---------- Reviews (PLACEHOLDERS – asli Google reviews se badlein) ----------
+  // false = Reviews section website par nahi dikhega. Asli reviews aane par true karein.
+  showReviews: false,
   reviews: [
     { name: "[STUDENT NAME]", area: "[AREA]", text: "[REVIEW TEXT]", rating: 5 },
     { name: "[STUDENT NAME]", area: "[AREA]", text: "[REVIEW TEXT]", rating: 5 },
